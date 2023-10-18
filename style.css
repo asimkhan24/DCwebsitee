@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   background-image: url(./img/neom-kXbit_yx8t4-unsplash.jpg);
+   height: 100%;
+   width: 100%;
+   font-family: calibri;
+}
+
+.nav-container{
+display: flex;
+width: 100%;
+position: fixed;
+top: 0;
+align-items: center;
+justify-content: center;
+height: 50px;
+background-image: linear-gradient(rgb(19, 114, 2), rgb(91, 129, 3));
+}
+
+.nav-ul{
+display: flex;
+font-size: 22px;
+margin-left: 20px;
+width: 100%;
+}
+
+@media only screen and (max-width:500px){
+.nav-ul {
+  font-size: 20px;
+}
+.nav-container{
+  border-radius: 5px;
+  background-image:linear-gradient(rgb(18, 130, 18), rgb(91, 91, 9));
+  
+}
+.imgcover{
+  height: 60vh;
+  width: 70%;
+}
+}
+
+
+a{
+text-decoration: none;
+color: aliceblue;
+}
+
+li{
+padding: 20px;
+text-shadow:2px 3px black;
+}
+
+li:hover{
+  background-image: linear-gradient(rgb(56, 1, 61), rgb(76, 3, 17));
+
+}
+
+.push{
+margin-left: auto ;
+}
+
+.cover{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 10px;
+flex-direction: column;
+color: aliceblue;
+height: 100vh;
+width: 100%;
+background-image: linear-gradient(rgb(56, 1, 61), rgb(76, 3, 17));
+}
+
+.imgcover{
+  width: 70%;
+  height: 70vh;
+  }
+  .imgcover:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  }
+
+.boxes{
+display: grid;
+grid-template-columns:repeat(auto-fill, minmax(320px, 1fr));
+gap: 15px;
+width: 100%;
+
+}
+
+.zone{
+background-color: rgb(59, 8, 8);
+color: aliceblue;
+border-radius: 5px;
+border: 3px solid rgb(24, 23, 12);
+font-size: 40px;
+text-shadow: 4px 6px black;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 100%;
+height: 320px;
+text-transform: uppercase;
+
+
+}
+img{
+width: 250px;;
+height: 200vh;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.3s;
+}
+
+img:hover{
+cursor: pointer;
+transform: scale(1.5);
+}
+
+.jokerimg{
+  width: 150px;;
+height: 150vh;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.3s;
+
+}
+
+.zone:hover{
+background-image:radial-gradient(rgb(4, 114, 0), rgb(73, 80, 1));
+cursor: pointer;
+}
+
+.rot:hover{
+  transform: rotate(-8deg);
+}
+
+footer{
+  text-align: center;
+  width: 100%;
+  height: 40px;
+  background-color: rgb(10, 10, 35);
+  padding: 10px;
+  font-size: 25px;
+  color: aliceblue;
+  transition: 3s;
+  margin-top: 10px;
+  
+}
